@@ -29,13 +29,13 @@ Add a screenshot of the running app (take it from the Detect tab) and uncomment:
 
 ```mermaid
 flowchart TD
-    A[Email / SMS text] --> B[Cleaning: URL, email and number tokens, HTML strip]
-    B --> C[TF-IDF: unigrams + bigrams]
-    C --> D[Classifier: NB / Logistic Regression / Linear SVM]
-    D --> E[P&#40;phishing&#41;]
-    D --> F[LIME word explanation]
-    A --> G[Rule-based red flags]
-    E --> H[Streamlit interface]
+    A["Email / SMS text"] --> B["Cleaning: URL, email and number tokens, HTML strip"]
+    B --> C["TF-IDF: unigrams + bigrams"]
+    C --> D["Classifier: NB / Logistic Regression / Linear SVM"]
+    D --> E["Phishing probability"]
+    D --> F["LIME word explanation"]
+    A --> G["Rule-based red flags"]
+    E --> H["Streamlit interface"]
     F --> H
     G --> H
 ```
