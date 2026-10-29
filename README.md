@@ -9,11 +9,7 @@
 
 A lightweight NLP system that classifies an email or SMS as **phishing/spam** or **legitimate**, and explains *why* by highlighting the words that drove the decision. It trains in about a second on a laptop CPU and ships with an interactive web demo.
 
-<!--
-Add a screenshot of the running app (take it from the Detect tab) and uncomment:
-
-![Demo](docs/demo.png)
--->
+demo.png
 
 ## Features
 
