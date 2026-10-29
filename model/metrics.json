@@ -1,0 +1,43 @@
+{
+  "selected": "Logistic Regression",
+  "n_train": 14029,
+  "n_test": 3508,
+  "dataset": "Phishing_Email.csv",
+  "positive_rate": 0.3739522153161886,
+  "results": {
+    "Naive Bayes": {
+      "accuracy": 0.9803306727480046,
+      "precision": 0.9905288082083662,
+      "recall": 0.9565548780487805,
+      "f1": 0.9732454439705313,
+      "roc_auc": 0.9982392459682793,
+      "train_sec": 27.93
+    },
+    "Logistic Regression": {
+      "accuracy": 0.9860319270239453,
+      "precision": 0.9787717968157695,
+      "recall": 0.9839939024390244,
+      "f1": 0.9813759026985936,
+      "roc_auc": 0.9979858750944066,
+      "train_sec": 24.86
+    },
+    "Linear SVM": {
+      "accuracy": 0.9877423033067275,
+      "precision": 0.9832444782939832,
+      "recall": 0.9839939024390244,
+      "f1": 0.9836190476190476,
+      "roc_auc": 0.9980532092718468,
+      "train_sec": 26.18
+    }
+  },
+  "confusion_matrix": [
+    [
+      2168,
+      28
+    ],
+    [
+      21,
+      1291
+    ]
+  ]
+}
